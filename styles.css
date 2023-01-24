@@ -1,0 +1,48 @@
+:root {
+    /* Primary colors */
+    --soft-blue: hsl(215, 51%, 70%)
+    --cyan: hsl(178, 100%, 50%)
+
+    /* Neutral colors */
+    /* Main background */
+    --very-dark-blue: (main BG): hsl(217, 54%, 11%);
+    /* Card background */
+    --very-dark-blue: (card BG): hsl(216, 50%, 16%);
+    /* Line */    
+    --very-dark-blue: (line): hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Font (paragraph) */
+    font-size: 18px;
+
+    /* Font Weight */
+    --light: 300;
+    --regular: 400;
+    --semibold: 600;
+
+    /* Layout */
+    /* - Mobile: 375px */
+    /* - Desktop: 1440px */
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html *{
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    margin: 0;
+}
+
+/* Attribution */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
