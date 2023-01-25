@@ -66,6 +66,7 @@ body {
     font-weight: var(--light);
     color: var(--soft-blue);
 }
+/* Card Price Time */
 .card__price-time-container {
     display: flex;
     justify-content: space-between;
@@ -99,6 +100,28 @@ body {
     background-position: center;
     vertical-align: bottom;
     margin-right: 4px;
+}
+/* Card Creator */
+.card__creator-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    border-top: 1px solid var(--soft-blue);
+}
+.card__creator-img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+.card__creator-text {
+    font-size: 16px;
+    font-weight: var(--light);
+    color: var(--soft-blue);
+}
+.card__creator-name {
+    color: var(--white);
 }
 
 /* Attribution */
