@@ -36,92 +36,108 @@ html * {
 	font-family: 'Outfit', sans-serif;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
 	margin: 0;
-    background-color: var(--very-dark-blue-m);
+	background-color: var(--very-dark-blue-m);
+}
+/* Header */
+.header {
+	width: 100%;
+	font-size: 24px;
+	color: var(--white);
+	text-align: center;
 }
 /* Card container */
 .card-container {
 	width: 320px;
-    align-self: center;
-    padding: 20px;
+	align-self: center;
+	padding: 20px;
 	background-color: var(--very-dark-blue-c);
-    border-radius: 10px;
-
+	border-radius: 10px;
 }
 .card__img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
 .card__title {
-    font-size: 22px;
-    font-weight: var(--semibold);
-    color: var(--white);
+	font-size: 22px;
+	font-weight: var(--semibold);
+	color: var(--white);
 }
 .card__copy {
-    font-size: 17px;
-    font-weight: var(--light);
-    color: var(--soft-blue);
+	font-size: 17px;
+	font-weight: var(--light);
+	color: var(--soft-blue);
 }
 /* Card Price Time */
 .card__price-time-container {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .card__crypto-text {
-    font-size: 15px;
-    color: var(--cyan);
+	font-size: 15px;
+	color: var(--cyan);
 }
 .card__crypto-img {
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    background-image: url('./images/icon-ethereum.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    vertical-align: bottom;
-    margin-right: 4px;
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background-image: url('./images/icon-ethereum.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: bottom;
+	margin-right: 4px;
 }
 .card__time-text {
-    font-size: 14px;
-    color: var(--soft-blue);
+	font-size: 14px;
+	color: var(--soft-blue);
 }
 .card__time-img {
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    background-image: url('./images/icon-clock.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    vertical-align: bottom;
-    margin-right: 4px;
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background-image: url('./images/icon-clock.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: bottom;
+	margin-right: 4px;
 }
 /* Card Creator */
 .card__creator-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-top: 10px;
-    border-top: 1px solid var(--soft-blue);
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 10px;
+	border-top: 1px solid var(--soft-blue);
 }
 .card__creator-img {
-    width: 30px;
-    height: 30px;
-    border: 1px solid var(--white);
-    border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	border: 1px solid var(--white);
+	border-radius: 50%;
 }
 .card__creator-text {
-    font-size: 16px;
-    font-weight: var(--light);
-    color: var(--soft-blue);
+	font-size: 16px;
+	font-weight: var(--light);
+	color: var(--soft-blue);
 }
 .card__creator-name {
-    color: var(--white);
+	color: var(--white);
+}
+/* Footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	color: var(--white);
 }
 
 /* Attribution */
