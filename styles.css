@@ -66,8 +66,12 @@ body {
     font-weight: var(--light);
     color: var(--soft-blue);
 }
+.card__price-time-container {
+    display: flex;
+    justify-content: space-between;
+}
 .card__crypto-text {
-    font-size: 17px;
+    font-size: 15px;
     color: var(--cyan);
 }
 .card__crypto-img {
@@ -75,6 +79,21 @@ body {
     width: 19px;
     height: 19px;
     background-image: url('./images/icon-ethereum.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    vertical-align: bottom;
+    margin-right: 4px;
+}
+.card__time-text {
+    font-size: 14px;
+    color: var(--soft-blue);
+}
+.card__time-img {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-image: url('./images/icon-clock.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
